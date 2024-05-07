@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.matrice{
+  border-collapse: collapse;
+}
+.matrice td{
+  border: 2px solid black;
+  padding: 5px 15px;
+  text-align: center;
+}
+.a_changee{
+  color : red;
+}
+
+.a_changee_calcul{
+  font-weight: 500;
+}
+.tableDynamique {
+  margin: 15px 0;
+}
+.tableDynamique input{
+  width: 80px;
+  height: 45px;
+  size: 20px;
+}
+
+.top_numero{
+  text-align: center;
+}
+
+.matriceTopNumero, .matriceTopNumero td{
+  border: none;
+}
+
+.matrice .matriceLeftNumero{
+  border: none;
+}
+
+.formule, .formule td {
+  padding: 5px 40px;
+}
+
+.titleMatrice {
+  padding: 0% 30%;
+}
+
+.titleSolution{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.cytsocapteContainer {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 5px 0px 0px 5px;
+}
+
+.nombreSommetContainer input{
+  margin: 5px 15px;
+}
+
+.ct-btn-container button {
+  margin: 0px 5px;
+  border: solid 1px;
+}
+
+.form{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+}
